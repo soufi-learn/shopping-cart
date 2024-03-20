@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2bbd68; /* Main blue color for buttons and highlights */
+  --primary-color-dark: #28a05a; /* Main blue color for buttons and highlights */
+  --text-color: #333; /* Dark gray for text */
+}
+
+body {
+  font-family: varela, vazir;
+  background: #f9f9f9;
+  color: var(--text-color);
+}
+
+@font-face {
+  font-family: varela;
+  src: url("./assets/varela-round.ttf");
+}
+
+@font-face {
+  font-family: vazir;
+  src: url("./assets/vazir.ttf");
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+p {
+  margin-bottom: 0;
+}

@@ -1,0 +1,38 @@
+.sidebarContainer {
+  padding: 20px;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 1rem;
+}
+
+.sidebarItem {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.sidebarItem p {
+  margin-bottom: 5px;
+}
+
+.sidebarItem span {
+  color: var(--primary-color-dark);
+}
+
+.checkoutButton {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  &:hover {
+    background-color: var(--primary-color-dark);
+  }
+}

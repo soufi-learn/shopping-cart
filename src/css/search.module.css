@@ -1,0 +1,16 @@
+.searchFormContainer .searchForm {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 0.6rem;
+  .searchInput {
+    width: 100%;
+    box-shadow: none;
+    transition: all 0.3s ease-in;
+  }
+}
+
+.searchFormContainer {
+  margin-top: 1.5rem;
+}

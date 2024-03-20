@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem;
+  background-color: #333;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  margin-right: 20px;
+}
+
+header .checkoutButton {
+  position: relative;
+}
+
+header .cartIcon {
+  font-size: 2rem;
+  background: #fff;
+  color: #333;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+header .counterText {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -50%;
+  right: -50%;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
