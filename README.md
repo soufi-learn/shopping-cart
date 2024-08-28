@@ -17,7 +17,7 @@
 <h3>How to Run the Project:</h3>
 <ol>
   <li>Download or clone the source code.</li>
-  <li>Open the <code>project</code> in your IDE or code editor.</li>
+  <li>Open the project in your IDE or code editor.</li>
   <li>install the packages (<code>npm install</code>)</li>
   <li>run Project (<code>npm run dev</code>).</li>
 </ol>
